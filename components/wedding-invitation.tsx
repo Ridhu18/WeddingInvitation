@@ -234,7 +234,16 @@ export default function WeddingInvitation() {
             <br />
             Dist. Mahisagar
           </p>
-          <p className="text-xs sm:text-sm text-gold font-sans font-semibold">Ph no.: 9106075993, 9825666564</p>
+          <p className="text-xs sm:text-sm text-gold font-sans font-semibold">
+            Ph no.:{" "}
+            <a href="tel:+919106075993" className="underline-offset-4 hover:underline">
+              9106075993
+            </a>
+            ,{" "}
+            <a href="tel:+919825666564" className="underline-offset-4 hover:underline">
+              9825666564
+            </a>
+          </p>
         </div>
       </section>
 
@@ -520,6 +529,28 @@ export default function WeddingInvitation() {
             </svg>
             Get Location
           </a>
+
+          <div className="mt-10 sm:mt-12 rounded-[24px] border border-[#f1c879]/50 bg-[#7b1f23]/40 px-6 py-6 text-left text-sm sm:text-base font-sans leading-relaxed">
+            <p className="text-[#f4d990] uppercase tracking-[0.28em] text-center mb-4">About Us</p>
+            <p className="text-cream/90 text-center">
+              For invitation updates or design inquiries, reach us at{" "}
+              <a
+                href="mailto:buildsite.tech@gmail.com"
+                className="text-gold underline-offset-4 hover:underline"
+              >
+                buildsite.tech@gmail.com
+              </a>
+              <br />
+              Call{" "}
+              <a
+                href="tel:+918780326820"
+                className="text-gold font-semibold underline-offset-4 hover:underline"
+              >
+                +91 8780326820
+              </a>
+              .
+            </p>
+          </div>
         </div>
       </section>
 
