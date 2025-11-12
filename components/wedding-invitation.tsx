@@ -328,7 +328,7 @@ export default function WeddingInvitation() {
                 <p className="font-sans text-xs sm:text-sm leading-7 text-center">
                   Mr. Jayantilal Patel & Mrs. Jashodaben Patel
                   <br />
-                  Mr. Shantilal Patel & Mrs. Lilabenn Patel
+                  Mr. Shantilal Patel & Mrs. Lilaben Patel
                   <br />
                   
                 </p>
