@@ -15,6 +15,19 @@ export const metadata: Metadata = {
   title: "Zeel & Komil - Wedding Invitation",
   description: "You are cordially invited to celebrate the wedding of Zeel and Komil.",
   generator: "v0.app",
+  icons: {
+    icon: [
+      {
+        url: "/wedding-icon.svg",
+        type: "image/svg+xml",
+      },
+      {
+        url: "/wedding-icon.svg",
+        sizes: "any",
+      },
+    ],
+    apple: "/wedding-icon.svg",
+  },
 }
 
 export default function RootLayout({
