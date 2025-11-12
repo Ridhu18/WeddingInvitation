@@ -12,26 +12,9 @@ const playfair = Playfair_Display({
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Drashti & Yash - Wedding Invitation",
-  description: "You are cordially invited to the wedding celebration of Drashti and Yash",
+  title: "Zeel & Komil - Wedding Invitation",
+  description: "You are cordially invited to celebrate the wedding of Zeel and Komil.",
   generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
 }
 
 export default function RootLayout({
