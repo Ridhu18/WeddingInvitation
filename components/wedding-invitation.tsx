@@ -124,16 +124,17 @@ export default function WeddingInvitation() {
             {/* Bride and Groom Names */}
             <div className="mb-10 sm:mb-12 text-center">
               <div className="inline-block px-6 sm:px-8 md:px-10 py-5 sm:py-6 border-y-2 border-gold">
-                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-2">ચિ.અમિષા</p>
+                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-2">અમિષા</p>
                 <p className="text-base sm:text-lg text-gold font-sans mb-3 sm:mb-4">&</p>
-                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold">ચિ.નિશિ</p>
+                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold">નિશિત</p>
               </div>
             </div>
             
 
             {/* Date */}
             <div className="mb-12 text-center">
-              <p className="text-lg sm:text-xl font-sans tracking-wide">Sunday, February 22, 2026</p>
+              <p className="text-lg sm:text-xl font-sans tracking-wide">રવિવાર, ૨૨-૦૨-૨૦૨૬</p>
+              <p className="text-base sm:text-lg text-maroon/70 font-sans tracking-wide mt-2">વિક્રમ સંવત ૨૦૮૨ ફાગણ સુદ-૫</p>
             </div>
 
             {/* Decorative element */}
@@ -178,23 +179,23 @@ export default function WeddingInvitation() {
                   <h2 className="text-2xl sm:text-3xl font-semibold tracking-[0.28em] uppercase text-maroon">💐આમંત્રક</h2>
                   <div className="mx-auto h-10 w-10 sm:h-12 sm:w-12 rounded-full border border-[#d8aa66] bg-gradient-to-b from-[#fff4d7] to-[#f9d79a] shadow-inner" />
                   <p className="text-base sm:text-lg leading-relaxed font-sans">
-                    શ્રી પિંકેશભાઈ જયંતિલાલ પટેલ
+                    શ્રી શશીકાન્તભાઈ શાંતિલાલ પટેલ
                     <br />
-                    શ્રીમતી કલ્પનાબેન પિંકેશભાઈ પટેલ
+                    અ.સૌ. કલ્પનાબેન શશીકાન્તભાઈ પટેલ
                   </p>
                   <p className="text-xs sm:text-sm font-sans leading-relaxed">
-                    મુ. મઠ, તાલુકો. લુણાવાડા,
+                    મુ. ડોકેલાવ, તા. લુણાવાડા,
                     <br />
-                    જિલ્લો મહીસાગર
+                    જી. મહિસાગર
                   </p>
                   <p className="text-xs sm:text-sm text-gold font-sans font-semibold">
-                    Ph no.:
-                    <a href="tel:+919106075993" className="underline-offset-4 hover:underline">
-                      9106075993
+                    મો.:
+                    <a href="tel:+919979516283" className="underline-offset-4 hover:underline">
+                      ૯૯૭૯૫૧૬૨૮૩
                     </a>
                     ,
-                    <a href="tel:+919825666564" className="underline-offset-4 hover:underline">
-                      9825666564
+                    <a href="tel:+919909508856" className="underline-offset-4 hover:underline">
+                      ૯૯૦૯૫૦૮૮૫૬
                     </a>
                   </p>
                 </div>
@@ -204,14 +205,20 @@ export default function WeddingInvitation() {
                 <div className="space-y-5">
                   <h2 className="text-2xl sm:text-3xl font-semibold tracking-[0.25em] uppercase">🌼 હૃદયથી આશીર્વાદ</h2>
                   <p className="text-base sm:text-lg leading-relaxed font-sans text-center">
-                    અતિ આનંદ અને હૃદયપૂર્વકના આશીર્વાદ સાથે, શ્રી પિંકેશભાઈ પટેલ અને શ્રીમતી કલ્પનાબેન પટેલ પોતાની લાડકી પુત્રીના લગ્ન પ્રસંગે આપને હાર્દિક આમંત્રણ આપે છે.
+                    સહર્ષ ખુશાલી સાથે જણાવવાનું કે ગાયત્રી માંની અસીમ કૃપાથી ગામ ડોકેલાવ નિવાસી અ.સૌ. કલ્પનાબેન તથા શ્રી શશીકાન્તભાઈ શાંતિલાલ પટેલની સુપુત્રીના લગ્ન પ્રસંગે આપને હાર્દિક આમંત્રણ આપીએ છીએ.
                   </p>
                   <div className="inline-flex flex-col items-center gap-3">
-                    <span className="text-3xl sm:text-4xl font-semibold tracking-wide">ઝીલ</span>
+                    <span className="text-3xl sm:text-4xl font-semibold tracking-wide">ચિ. અમિષા</span>
                     <span className="text-xs sm:text-sm uppercase tracking-[0.45em] sm:tracking-[0.6em] text-gold">ના શુભ લગ્ન</span>
-                    <span className="text-3xl sm:text-4xl font-semibold tracking-wide">કોમિલ</span>
+                    <span className="text-3xl sm:text-4xl font-semibold tracking-wide">ચિ. નિશિત</span>
                     <span className="mt-3 text-xs sm:text-sm font-sans text-maroon/80">
-                      શ્રી બિપિનચંદ્ર પટેલ અને શ્રીમતી ભારતીબેન પટેલના પુત્ર
+                      ગામ જેસીંગપુર નિવાસી અ.સૌ. દક્ષાબેન તથા શ્રી રાજેશભાઈ મણીલાલ પટેલના સુપુત્ર સાથે
+                    </span>
+                    <span className="mt-4 text-sm font-sans text-maroon/80">
+                      વિક્રમ સંવત ૨૦૮૨ ફાગણ સુદ-૫ ને રવિવાર, તા. ૨૨-૦૨-૨૦૨૬ ના શુભદિને નિરધાર્યા છે.
+                    </span>
+                    <span className="mt-2 text-xs font-sans text-maroon/70 italic">
+                      તો આ શુભ પ્રસંગે નવદંપતિને આશીર્વાદ આપવા આપ પધારી શોભામાં અભિવૃદ્ધિ કરશોજી.
                     </span>
                   </div>
                   <div className="mx-auto mt-6 h-1 w-14 sm:w-16 rounded-full bg-gradient-to-r from-gold via-maroon to-gold opacity-80" />
@@ -227,29 +234,29 @@ export default function WeddingInvitation() {
                   <div className="rounded-3xl border border-[#e3c189] bg-[#fff4de]/70 px-6 sm:px-8 py-6 shadow-inner">
                     <p className="font-semibold uppercase tracking-[0.16em] sm:tracking-[0.2em] mb-4 text-center">દર્શનાભિલાષી</p>
                     <p className="font-sans text-xs sm:text-sm leading-7 text-center">
-                      અ.નિ જયંતિલાલ પટેલ
+                      સ્વ. શાંતિલાલ કોયજીભાઈ પટેલ
                       <br />
-                      અ.નિ શાંતિલાલ પટેલ
+                      શ્રી હર્ષદભાઈ શાંતિલાલ પટેલ
                       <br />
-                      શ્રી ભરતભાઈ પટેલ
+                      શ્રી ચેતનકુમાર હર્ષદભાઈ પટેલ
                       <br />
-                      શ્રી જીતેન્દ્રભાઈ પટેલ
+                      શ્રી પંકજકુમાર હર્ષદભાઈ પટેલ
                       <br />
-                      શ્રી મયંકભાઈ પટેલ
+                      શ્રી રોમાંગકુમાર શશીકાન્તભાઈ પટેલ
                     </p>
                   </div>
                   <div className="rounded-3xl border border-[#e3c189] bg-[#fff4de]/70 px-6 sm:px-8 py-6 shadow-inner flex flex-col justify-center">
                     <p className="font-semibold uppercase tracking-[0.16em] sm:tracking-[0.2em] mb-4 text-center">સ્નેહાધીન</p>
                     <p className="font-sans text-xs sm:text-sm leading-7 text-center">
-                      ગં.સ્વ જશોદબેન પટેલ
+                      સ્વ. ધૂળીબેન શાંતિલાલ પટેલ
                       <br />
-                      ગં.સ્વ લિલાબેન પટેલ
+                      અ.સૌ. મિનાક્ષીબેન હર્ષદભાઈ પટેલ
                       <br />
-                      શ્રીમતી નીરુબેન પટેલ
+                      અ.સૌ. કલ્પનાબેન ચેતનકુમાર પટેલ
                       <br />
-                      શ્રીમતી સ્મિતાબેન પટેલ
+                      અ.સૌ. તરલિકાબેન પંકજકુમાર પટેલ
                       <br />
-                      શ્રીમતી સોનલબેન પટેલ
+                      અ.સૌ. કોમલબેન રોમાંગકુમાર પટેલ
                     </p>
                   </div>
                 </div>
@@ -257,10 +264,13 @@ export default function WeddingInvitation() {
                 <div className="relative mx-auto mt-8 max-w-xl border-t border-dashed border-gold pt-6 sm:pt-8 text-center">
                   <div className="absolute -top-4 left-1/2 h-6 w-6 sm:h-8 sm:w-8 -translate-x-1/2 rotate-45 rounded-sm border border-gold bg-[#fff5db]" />
                   <p className="text-sm sm:text-base leading-relaxed mb-4 sm:mb-5">
-                    ટહુકો: ઘર અમારું મંદિર, સંસ્કાર અમારી શોભા, મૌન અમારી ભાષા, પ્રેમ અમારી પરિભાષા. શાનમાં કહીએ કે કાને... અમારી દીદી/માસીના લગ્નમાં જરૂર હાજર રહેજો.
+                    વાગે છે શરણાઈ ને વાગે છે ઢોલ, લીધા છે આઉટફીટ ફરી ફરીને મોલ, પધારીને આપણી શોભા વધાવો, આ શુભ પ્રસંગે સૌની જરૂર છે રજાઓ.
                   </p>
                   <p className="font-sans text-xs sm:text-sm tracking-[0.24em] sm:tracking-[0.32em] uppercase">
-                    વ્રજ · ક્રિશ · દીપ · શ્રીજા · પવિથ · હેત · દેવ્યાની · ધ્રુવી · નીલ · મૌર્ય · ખનીકા · રુદ્ર · હાર્દી
+                    કલરવ
+                  </p>
+                  <p className="font-sans text-xs sm:text-sm mt-2">
+                    નિર્વી · હાર્દ · કિંશુ
                   </p>
                 </div>
               </div>
@@ -274,32 +284,33 @@ export default function WeddingInvitation() {
                   rel="noopener noreferrer"
                   className="mx-auto mb-10 sm:mb-12 block w-fit rounded-full border border-gold px-6 sm:px-8 py-2.5 sm:py-3 text-center text-xs sm:text-sm uppercase tracking-[0.24em] sm:tracking-[0.3em] text-gold transition duration-300 hover:bg-gold hover:text-maroon"
                 >
-                  મુ. મઠ, તાલુકો. લુણાવાડા, જિલ્લો મહીસાગર
+                  શુભ સ્થળ : મુ. ડોકેલાવ, તા. લુણાવાડા, જી. મહિસાગર
                 </a>
 
                 <div className="grid gap-8 sm:gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                   <div className="relative overflow-hidden rounded-[28px] border-[4px] border-[#c07a4d] bg-gradient-to-b from-[#fff3dd] via-[#fce3bf] to-[#f6cea5] px-6 sm:px-8 md:px-10 py-10 sm:py-12 shadow-[0_18px_40px_rgba(142,87,37,0.18)]">
                     <div className="absolute inset-x-8 sm:inset-x-10 md:inset-x-12 top-0 h-1.5 sm:h-2 rounded-b-full bg-gradient-to-r from-transparent via-[#c07a4d]/60 to-transparent" />
                     <h3 className="text-xl sm:text-2xl font-semibold text-center mb-6 sm:mb-8 border-b border-[#c07a4d]/40 pb-3 sm:pb-4 uppercase tracking-[0.2em] sm:tracking-[0.25em]">
-                      શુક્રવાર, 28-11-2025
+                      શુક્રવાર, ૨૦-૦૨-૨૦૨૬
                     </h3>
+                    <p className="text-xs sm:text-sm text-center mb-4 text-maroon/70">વિક્રમ સંવત ૨૦૮૨ ફાગણ સુદ-૩</p>
                     <div className="space-y-5 sm:space-y-6 font-sans text-xs sm:text-sm">
                       <div className="flex items-start justify-between gap-3 sm:gap-4">
                         <div className="max-w-[80%]">
                           <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">ગણેશ સ્થાપના</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">08:00 a.m.</p>
+                          <p className="text-gold mt-1 text-xs sm:text-sm">સવારે ૮-૩૦ કલાકે</p>
                         </div>
                       </div>
                       <div className="flex items-start justify-between gap-3 sm:gap-4">
                         <div className="max-w-[80%]">
                           <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">મંડપ મુહૂર્ત</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">10:00 a.m.</p>
+                          <p className="text-gold mt-1 text-xs sm:text-sm">સવારે ૯-૩૦ કલાકે</p>
                         </div>
                       </div>
                       <div className="flex items-start justify-between gap-3 sm:gap-4">
                         <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">ગ્રહ શાંતિ</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">01:00 p.m.</p>
+                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">ગ્રહશાંતિ</p>
+                          <p className="text-gold mt-1 text-xs sm:text-sm">બપોરે ૧-૦૧ કલાકે</p>
                         </div>
                       </div>
                     </div>
@@ -308,25 +319,26 @@ export default function WeddingInvitation() {
                   <div className="relative overflow-hidden rounded-[28px] border-[4px] border-[#d2a55a] bg-gradient-to-b from-[#fff4d8] via-[#fce4b5] to-[#f3cb88] px-6 sm:px-8 md:px-10 py-10 sm:py-12 shadow-[0_18px_40px_rgba(154,102,43,0.18)]">
                     <div className="absolute inset-x-8 sm:inset-x-10 md:inset-x-12 top-0 h-1.5 sm:h-2 rounded-b-full bg-gradient-to-r from-transparent via-[#d2a55a]/60 to-transparent" />
                     <h3 className="text-xl sm:text-2xl font-semibold text-center mb-6 sm:mb-8 border-b border-[#d2a55a]/40 pb-3 sm:pb-4 uppercase tracking-[0.2em] sm:tracking-[0.25em]">
-                      શનિવાર, 29-11-2025
+                      શનિવાર, ૨૧-૦૨-૨૦૨૬
                     </h3>
+                    <p className="text-xs sm:text-sm text-center mb-4 text-maroon/70">વિક્રમ સંવત ૨૦૮૨ ફાગણ સુદ-૪</p>
                     <div className="space-y-5 sm:space-y-6 font-sans text-xs sm:text-sm">
                       <div className="flex items-start justify-between gap-3 sm:gap-4">
                         <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">મામેરું</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">12:00 p.m.</p>
+                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">મામેરૂં</p>
+                          <p className="text-gold mt-1 text-xs sm:text-sm">બપોરે ૧૨-૦૧ કલાકે</p>
                         </div>
                       </div>
                       <div className="flex items-start justify-between gap-3 sm:gap-4">
                         <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">સ્વરુચિ ભોજન</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">11:30 a.m.</p>
+                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">ભોજન સમારંભ</p>
+                          <p className="text-gold mt-1 text-xs sm:text-sm">સવારે ૧૧-૦૧ કલાકથી</p>
                         </div>
                       </div>
                       <div className="flex items-start justify-between gap-3 sm:gap-4">
                         <div className="max-w-[80%]">
                           <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">રાસ-ગરબા</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">09:30 p.m.</p>
+                          <p className="text-gold mt-1 text-xs sm:text-sm">રાત્રે ૯-૦૧ કલાકે</p>
                         </div>
                       </div>
                     </div>
@@ -335,25 +347,26 @@ export default function WeddingInvitation() {
                   <div className="relative overflow-hidden rounded-[28px] border-[4px] border-[#c4933c] bg-gradient-to-b from-[#fff6dc] via-[#fbe6b8] to-[#f0c686] px-6 sm:px-8 md:px-10 py-10 sm:py-12 shadow-[0_18px_40px_rgba(154,102,43,0.18)]">
                     <div className="absolute inset-x-8 sm:inset-x-10 md:inset-x-12 top-0 h-1.5 sm:h-2 rounded-b-full bg-gradient-to-r from-transparent via-[#c4933c]/60 to-transparent" />
                     <h3 className="text-xl sm:text-2xl font-semibold text-center mb-6 sm:mb-8 border-b border-[#c4933c]/40 pb-3 sm:pb-4 uppercase tracking-[0.2em] sm:tracking-[0.25em]">
-                    રવિવાર, 30-11-2025
+                      રવિવાર, ૨૨-૦૨-૨૦૨૬
                     </h3>
+                    <p className="text-xs sm:text-sm text-center mb-4 text-maroon/70">વિક્રમ સંવત ૨૦૮૨ ફાગણ સુદ-૫</p>
                     <div className="space-y-5 sm:space-y-6 font-sans text-xs sm:text-sm">
                       <div className="flex items-start justify-between gap-3 sm:gap-4">
                         <div className="max-w-[80%]">
                           <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">જાન આગમન</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">09:00 a.m.</p>
+                          <p className="text-gold mt-1 text-xs sm:text-sm">સવારે ૧૦-૦૧ કલાકે</p>
                         </div>
                       </div>
                       <div className="flex items-start justify-between gap-3 sm:gap-4">
                         <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">હસ્તમેળાપ</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">11:00 a.m.</p>
+                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">હસ્ત મેળાપ</p>
+                          <p className="text-gold mt-1 text-xs sm:text-sm">બપોરે ૧૨-૦૧ કલાકે</p>
                         </div>
                       </div>
                       <div className="flex items-start justify-between gap-3 sm:gap-4">
                         <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">સ્વરુચિ ભોજન</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">11:00 a.m.</p>
+                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">કન્યા વિદાય</p>
+                          <p className="text-gold mt-1 text-xs sm:text-sm">બપોરે ૩-૦૧ કલાકે</p>
                         </div>
                       </div>
                     </div>
