@@ -12,8 +12,8 @@ const playfair = Playfair_Display({
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Zeel & Komil - Wedding Invitation",
-  description: "You are cordially invited to celebrate the wedding of Zeel and Komil.",
+  title: "amishawedsnishit",
+  description: "You are cordially invited to celebrate the wedding of Amisha and Nishit.",
   generator: "v0.app",
   icons: {
     icon: [

@@ -59,84 +59,6 @@ export default function WeddingInvitation() {
     </svg>
   `)
 
-  const ganeshaSVG = encodeURIComponent(`
-    <svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="ganeshaGold" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#d4af37" style="stop-opacity:1" />
-          <stop offset="50%" stop-color="#b8860b" style="stop-opacity:1" />
-          <stop offset="100%" stop-color="#8b6914" style="stop-opacity:1" />
-        </linearGradient>
-        <linearGradient id="ganeshaMaroon" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#a52a2a" style="stop-opacity:0.8" />
-          <stop offset="100%" stop-color="#8b1a1a" style="stop-opacity:1" />
-        </linearGradient>
-      </defs>
-      <g transform="translate(70, 75)">
-        <!-- Body outline - seated posture -->
-        <path d="M-25 25 Q-28 15, -25 5 Q-22 -5, -15 -8 Q-8 -10, 0 -8 Q8 -10, 15 -8 Q22 -5, 25 5 Q28 15, 25 25 Q22 35, 15 38 Q8 40, 0 38 Q-8 40, -15 38 Q-22 35, -25 25 Z" 
-              fill="none" stroke="url(#ganeshaGold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-        
-        <!-- Large ears -->
-        <path d="M-20 -12 Q-32 -15, -38 -10 Q-42 -5, -40 0 Q-38 5, -32 8 Q-28 10, -22 8" 
-              fill="none" stroke="url(#ganeshaGold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M20 -12 Q32 -15, 38 -10 Q42 -5, 40 0 Q38 5, 32 8 Q28 10, 22 8" 
-              fill="none" stroke="url(#ganeshaGold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        
-        <!-- Elegant trunk with S-curve -->
-        <path d="M0 -8 Q0 -5, -3 -2 Q-6 2, -8 8 Q-9 15, -7 20 Q-5 22, -3 20 Q-1 18, 0 15 Q1 18, 3 20 Q5 22, 7 20 Q9 15, 8 8 Q6 2, 3 -2 Q0 -5, 0 -8" 
-              fill="none" stroke="url(#ganeshaGold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        
-        <!-- Trunk tip curl -->
-        <path d="M-7 20 Q-8 22, -6 24 Q-4 23, -3 20" 
-              fill="none" stroke="url(#ganeshaGold)" stroke-width="2.5" stroke-linecap="round"/>
-        <path d="M7 20 Q8 22, 6 24 Q4 23, 3 20" 
-              fill="none" stroke="url(#ganeshaGold)" stroke-width="2.5" stroke-linecap="round"/>
-        
-        <!-- Closed eyes (meditative) -->
-        <circle cx="-8" cy="-5" r="1.5" fill="url(#ganeshaMaroon)"/>
-        <circle cx="8" cy="-5" r="1.5" fill="url(#ganeshaMaroon)"/>
-        
-        <!-- Forehead markings -->
-        <circle cx="0" cy="-12" r="1.2" fill="url(#ganeshaMaroon)"/>
-        <circle cx="0" cy="-15" r="0.8" fill="url(#ganeshaMaroon)"/>
-        <circle cx="0" cy="-18" r="0.8" fill="url(#ganeshaMaroon)"/>
-        <circle cx="0" cy="-21" r="0.8" fill="url(#ganeshaMaroon)"/>
-        
-        <!-- Crown/Headdress -->
-        <path d="M-6 -25 Q-8 -28, -4 -30 Q0 -31, 4 -30 Q8 -28, 6 -25 Q3 -24, 0 -23 Q-3 -24, -6 -25" 
-              fill="none" stroke="url(#ganeshaMaroon)" stroke-width="2" stroke-linecap="round"/>
-        <path d="M0 -31 Q0 -34, 0 -37" 
-              fill="none" stroke="url(#ganeshaMaroon)" stroke-width="2" stroke-linecap="round"/>
-        <circle cx="0" cy="-37" r="1.5" fill="url(#ganeshaMaroon)"/>
-        
-        <!-- Left arm holding modak/lamp -->
-        <path d="M-20 8 Q-28 12, -32 18 Q-33 22, -30 24 Q-28 25, -26 23" 
-              fill="none" stroke="url(#ganeshaGold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="-32" cy="18" r="3" fill="url(#ganeshaMaroon)" stroke="url(#ganeshaGold)" stroke-width="1.5"/>
-        <path d="M-32 15 Q-33 13, -32 11" 
-              fill="none" stroke="url(#ganeshaGold)" stroke-width="1.5" stroke-linecap="round"/>
-        
-        <!-- Right arm holding modak -->
-        <path d="M20 8 Q28 12, 32 18 Q33 22, 30 24 Q28 25, 26 23" 
-              fill="none" stroke="url(#ganeshaGold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="32" cy="18" r="2.5" fill="url(#ganeshaMaroon)" stroke="url(#ganeshaGold)" stroke-width="1.5"/>
-        
-        <!-- Crossed legs (meditative posture) -->
-        <path d="M-15 25 Q-18 32, -22 38 Q-20 40, -18 38 Q-16 35, -15 30" 
-              fill="none" stroke="url(#ganeshaGold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M15 25 Q18 32, 22 38 Q20 40, 18 38 Q16 35, 15 30" 
-              fill="none" stroke="url(#ganeshaGold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        
-        <!-- Decorative inner lines for depth -->
-        <path d="M-8 -5 Q-8 0, -8 5" 
-              fill="none" stroke="url(#ganeshaMaroon)" stroke-width="1" stroke-opacity="0.6" stroke-linecap="round"/>
-        <path d="M8 -5 Q8 0, 8 5" 
-              fill="none" stroke="url(#ganeshaMaroon)" stroke-width="1" stroke-opacity="0.6" stroke-linecap="round"/>
-      </g>
-    </svg>
-  `)
-
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#fff7e6] font-serif text-maroon">
       <div
@@ -186,15 +108,8 @@ export default function WeddingInvitation() {
 
           {/* Main Content */}
           <div className="relative rounded-[44px] md:rounded-[52px] bg-[#fffaf2] px-5 py-12 sm:px-7 sm:py-14 md:px-14 md:py-16 text-maroon shadow-[inset_0_0_25px_rgba(255,255,255,0.55)] md:shadow-[inset_0_0_30px_rgba(255,255,255,0.6)]">
-            {/* Om Symbol and Blessings with Ganesha */}
+            {/* Om Symbol and Blessings */}
             <div className={`text-center mb-8 sm:mb-10 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-8'}`}>
-              {/* Ganesha Image */}
-              <div className="relative mx-auto mb-4 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 animate-bounce-subtle">
-                <div 
-                  className="w-full h-full bg-no-repeat bg-contain bg-center"
-                  style={{ backgroundImage: `url("data:image/svg+xml,${ganeshaSVG}")` }}
-                />
-              </div>
               <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-b from-gold/70 to-gold/30 text-4xl sm:text-5xl text-maroon shadow-md animate-pulse-slow">
                 ॐ
               </div>
