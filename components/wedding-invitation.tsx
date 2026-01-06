@@ -277,7 +277,8 @@ export default function WeddingInvitation() {
 
               {/* Functions & Ceremonies */}
               <div className="rounded-[36px] border border-[#d29f52]/70 bg-[#fff8ea]/95 px-6 py-10 sm:px-8 sm:py-12 shadow-[0_14px_40px_rgba(142,87,37,0.2)]">
-                <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-4 sm:mb-5 tracking-normal uppercase">માગલિક પ્રસંગો</h2>
+                <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-4 sm:mb-5 tracking-normal uppercase">
+                માંગલિક પ્રસંગો</h2>
                 <a
                   href="https://goo.gl/maps/sy4sbJGpHTQuZaRu5"
                   target="_blank"
