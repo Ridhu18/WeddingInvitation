@@ -124,15 +124,16 @@ export default function WeddingInvitation() {
             {/* Bride and Groom Names */}
             <div className="mb-10 sm:mb-12 text-center">
               <div className="inline-block px-6 sm:px-8 md:px-10 py-5 sm:py-6 border-y-2 border-gold">
-                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-2">ઝીલ</p>
+                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-2">ચિ.અમિષા</p>
                 <p className="text-base sm:text-lg text-gold font-sans mb-3 sm:mb-4">&</p>
-                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold">કોમિલ</p>
+                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold">ચિ.નિશિત</p>
               </div>
             </div>
+            
 
             {/* Date */}
             <div className="mb-12 text-center">
-              <p className="text-lg sm:text-xl font-sans tracking-wide">Sunday, November 30, 2025</p>
+              <p className="text-lg sm:text-xl font-sans tracking-wide">Sunday, February 22, 2026</p>
             </div>
 
             {/* Decorative element */}
