@@ -126,7 +126,7 @@ export default function WeddingInvitation() {
               <div className="inline-block px-6 sm:px-8 md:px-10 py-5 sm:py-6 border-y-2 border-gold">
                 <p className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-2">ચિ.અમિષા</p>
                 <p className="text-base sm:text-lg text-gold font-sans mb-3 sm:mb-4">&</p>
-                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold">ચિ.નિશિત</p>
+                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold">ચિ.નિશિ</p>
               </div>
             </div>
             
