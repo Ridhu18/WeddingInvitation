@@ -5,8 +5,10 @@ import { useState, useEffect } from "react"
 export default function WeddingInvitation() {
   const [currentSection, setCurrentSection] = useState("main")
   const [scrollY, setScrollY] = useState(0)
+  const [isVisible, setIsVisible] = useState(false)
 
   useEffect(() => {
+    setIsVisible(true)
     const handleScroll = () => {
       setScrollY(window.scrollY)
     }
@@ -57,6 +59,35 @@ export default function WeddingInvitation() {
     </svg>
   `)
 
+  const ganeshaSVG = encodeURIComponent(`
+    <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="ganeshaGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+          <stop offset="0%" stop-color="#f4d03f"/>
+          <stop offset="100%" stop-color="#d68910"/>
+        </linearGradient>
+      </defs>
+      <g transform="translate(60, 60)">
+        <!-- Head -->
+        <ellipse cx="0" cy="-15" rx="22" ry="28" fill="url(#ganeshaGradient)" stroke="#8b4513" stroke-width="1.5"/>
+        <!-- Trunk -->
+        <path d="M-8 -10 Q-12 5, -10 20 Q-8 25, -5 20 Q-3 15, -2 10 L2 10 Q3 15, 5 20 Q8 25, 10 20 Q12 5, 8 -10" 
+              fill="#d68910" stroke="#8b4513" stroke-width="1.5"/>
+        <!-- Body -->
+        <ellipse cx="0" cy="25" rx="28" ry="32" fill="url(#ganeshaGradient)" stroke="#8b4513" stroke-width="1.5"/>
+        <!-- Arms -->
+        <ellipse cx="-20" cy="15" rx="8" ry="18" fill="url(#ganeshaGradient)" stroke="#8b4513" stroke-width="1.5" transform="rotate(-20 -20 15)"/>
+        <ellipse cx="20" cy="15" rx="8" ry="18" fill="url(#ganeshaGradient)" stroke="#8b4513" stroke-width="1.5" transform="rotate(20 20 15)"/>
+        <!-- Eyes -->
+        <circle cx="-6" cy="-20" r="3" fill="#000"/>
+        <circle cx="6" cy="-20" r="3" fill="#000"/>
+        <!-- Crown/Tilaka -->
+        <circle cx="0" cy="-35" r="4" fill="#ff6b6b"/>
+        <rect x="-2" y="-38" width="4" height="6" fill="#ff6b6b"/>
+      </g>
+    </svg>
+  `)
+
   return (
     <div className="relative min-h-screen overflow-hidden bg-[#fff7e6] font-serif text-maroon">
       <div
@@ -85,19 +116,19 @@ export default function WeddingInvitation() {
           <div className="absolute -top-12 sm:-top-14 md:-top-16 left-1/2 -translate-x-1/2 w-[160px] sm:w-[200px] md:w-[240px] h-[100px] sm:h-[120px] md:h-[140px] rounded-t-[240px] border-[6px] sm:border-[7px] md:border-[8px] border-[#d4a762] bg-[#fff6e7] shadow-[0_15px_30px_rgba(122,73,27,0.18)] md:shadow-[0_20px_40px_rgba(122,73,27,0.2)]" />
 
           <div
-            className="pointer-events-none absolute -top-16 md:-top-24 -left-8 sm:-left-10 md:-left-14 w-32 sm:w-40 md:w-48 h-32 sm:h-40 md:h-48 bg-no-repeat bg-contain"
+            className="pointer-events-none absolute -top-16 md:-top-24 -left-8 sm:-left-10 md:-left-14 w-32 sm:w-40 md:w-48 h-32 sm:h-40 md:h-48 bg-no-repeat bg-contain animate-float-slow"
             style={{ backgroundImage: `url("data:image/svg+xml,${lotusIllustration}")` }}
           />
           <div
-            className="pointer-events-none absolute -top-16 md:-top-24 -right-8 sm:-right-10 md:-right-14 w-32 sm:w-40 md:w-48 h-32 sm:h-40 md:h-48 bg-no-repeat bg-contain"
+            className="pointer-events-none absolute -top-16 md:-top-24 -right-8 sm:-right-10 md:-right-14 w-32 sm:w-40 md:w-48 h-32 sm:h-40 md:h-48 bg-no-repeat bg-contain animate-float-slow-delay"
             style={{ backgroundImage: `url("data:image/svg+xml,${lotusIllustration}")`, transform: "scaleX(-1)" }}
           />
           <div
-            className="pointer-events-none absolute -bottom-16 md:-bottom-20 -left-8 sm:-left-10 md:-left-12 w-36 sm:w-44 md:w-52 h-36 sm:h-44 md:h-52 bg-no-repeat bg-contain"
+            className="pointer-events-none absolute -bottom-16 md:-bottom-20 -left-8 sm:-left-10 md:-left-12 w-36 sm:w-44 md:w-52 h-36 sm:h-44 md:h-52 bg-no-repeat bg-contain animate-float-slow-delay"
             style={{ backgroundImage: `url("data:image/svg+xml,${lotusIllustration}")`, transform: "scaleY(-1)" }}
           />
           <div
-            className="pointer-events-none absolute -bottom-16 md:-bottom-20 -right-8 sm:-right-10 md:-right-12 w-36 sm:w-44 md:w-52 h-36 sm:h-44 md:h-52 bg-no-repeat bg-contain"
+            className="pointer-events-none absolute -bottom-16 md:-bottom-20 -right-8 sm:-right-10 md:-right-12 w-36 sm:w-44 md:w-52 h-36 sm:h-44 md:h-52 bg-no-repeat bg-contain animate-float-slow"
             style={{
               backgroundImage: `url("data:image/svg+xml,${lotusIllustration}")`,
               transform: "scale(-1, -1)",
@@ -106,33 +137,40 @@ export default function WeddingInvitation() {
 
           {/* Main Content */}
           <div className="relative rounded-[44px] md:rounded-[52px] bg-[#fffaf2] px-5 py-12 sm:px-7 sm:py-14 md:px-14 md:py-16 text-maroon shadow-[inset_0_0_25px_rgba(255,255,255,0.55)] md:shadow-[inset_0_0_30px_rgba(255,255,255,0.6)]">
-            {/* Om Symbol and Blessings */}
-            <div className="text-center mb-8 sm:mb-10 animate-fade-in">
-              <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-b from-gold/70 to-gold/30 text-4xl sm:text-5xl text-maroon shadow-md">
+            {/* Om Symbol and Blessings with Ganesha */}
+            <div className={`text-center mb-8 sm:mb-10 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-8'}`}>
+              {/* Ganesha Image */}
+              <div className="relative mx-auto mb-4 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 animate-bounce-subtle">
+                <div 
+                  className="w-full h-full bg-no-repeat bg-contain bg-center"
+                  style={{ backgroundImage: `url("data:image/svg+xml,${ganeshaSVG}")` }}
+                />
+              </div>
+              <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-b from-gold/70 to-gold/30 text-4xl sm:text-5xl text-maroon shadow-md animate-pulse-slow">
                 ॐ
               </div>
-              <p className="mt-4 text-xs sm:text-sm tracking-normal text-maroon font-sans uppercase">
+              <p className="mt-4 text-xs sm:text-sm tracking-normal text-maroon font-sans uppercase animate-fade-in-delay">
               ॐ શ્રી ગણેશાય નમઃ
               </p>
             </div>
 
             {/* Shubh Vivah */}
-            <h1 className="text-4xl sm:text-5xl md:text-7xl text-maroon font-bold mb-8 sm:mb-10 text-center drop-shadow-lg tracking-normal">
+            <h1 className={`text-4xl sm:text-5xl md:text-7xl text-maroon font-bold mb-8 sm:mb-10 text-center drop-shadow-lg tracking-normal transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
             શુભ વિવાહ
             </h1>
 
             {/* Bride and Groom Names */}
-            <div className="mb-10 sm:mb-12 text-center">
-              <div className="inline-block px-6 sm:px-8 md:px-10 py-5 sm:py-6 border-y-2 border-gold">
-                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-2">અમિષા</p>
-                <p className="text-base sm:text-lg text-gold font-sans mb-3 sm:mb-4">&</p>
-                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold">નિશિત</p>
+            <div className={`mb-10 sm:mb-12 text-center transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+              <div className="inline-block px-6 sm:px-8 md:px-10 py-5 sm:py-6 border-y-2 border-gold hover:border-gold/80 transition-all duration-300 hover:shadow-lg hover:shadow-gold/30">
+                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-2 animate-slide-in-left">અમિષા</p>
+                <p className="text-base sm:text-lg text-gold font-sans mb-3 sm:mb-4 animate-pulse-slow">&</p>
+                <p className="text-2xl sm:text-3xl md:text-4xl font-semibold animate-slide-in-right">નિશિત</p>
               </div>
             </div>
             
 
             {/* Date */}
-            <div className="mb-12 text-center">
+            <div className={`mb-12 text-center transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
               <p className="text-lg sm:text-xl font-sans tracking-normal">રવિવાર, ૨૨-૦૨-૨૦૨૬</p>
               <p className="text-base sm:text-lg text-maroon/70 font-sans tracking-normal mt-2">વિક્રમ સંવત ૨૦૮૨ ફાગણ સુદ-૫</p>
             </div>
@@ -174,7 +212,7 @@ export default function WeddingInvitation() {
 
             <div className="mt-12 sm:mt-14 space-y-12 sm:space-y-14">
               {/* Invited By & Blessings */}
-              <div className="rounded-[36px] border border-[#d4a76a]/70 bg-[#fff8e9]/90 px-6 py-10 sm:px-8 sm:py-12 shadow-[0_14px_40px_rgba(140,80,30,0.18)] text-center">
+              <div className="rounded-[36px] border border-[#d4a76a]/70 bg-[#fff8e9]/90 px-6 py-10 sm:px-8 sm:py-12 shadow-[0_14px_40px_rgba(140,80,30,0.18)] text-center hover:shadow-[0_18px_50px_rgba(140,80,30,0.25)] transition-all duration-500 hover:scale-[1.02] hover:border-[#d4a76a]">
                 <div className="space-y-6">
                   <h2 className="text-2xl sm:text-3xl font-semibold tracking-normal uppercase text-maroon">💐આમંત્રક</h2>
                   <div className="mx-auto h-10 w-10 sm:h-12 sm:w-12 rounded-full border border-[#d8aa66] bg-gradient-to-b from-[#fff4d7] to-[#f9d79a] shadow-inner" />
@@ -226,12 +264,12 @@ export default function WeddingInvitation() {
               </div>
 
               {/* Family Blessings */}
-              <div className="rounded-[36px] border border-[#d3a964]/70 bg-[#fff9ef]/90 px-6 py-10 sm:px-8 sm:py-12 shadow-[0_14px_40px_rgba(143,85,39,0.18)]">
+              <div className="rounded-[36px] border border-[#d3a964]/70 bg-[#fff9ef]/90 px-6 py-10 sm:px-8 sm:py-12 shadow-[0_14px_40px_rgba(143,85,39,0.18)] hover:shadow-[0_18px_50px_rgba(143,85,39,0.25)] transition-all duration-500 hover:scale-[1.02] hover:border-[#d3a964]">
                 <div className="mx-auto mb-5 sm:mb-6 w-20 sm:w-24 h-1 rounded-full bg-gradient-to-r from-transparent via-gold to-transparent" />
                 <h2 className="text-2xl sm:text-3xl font-semibold tracking-normal uppercase text-center mb-8 sm:mb-10">💐પરિવારના આશીર્વાદ રૂપે જોડાયેલા</h2>
 
                 <div className="grid grid-cols-1 gap-5 sm:gap-7 md:grid-cols-2">
-                  <div className="rounded-3xl border border-[#e3c189] bg-[#fff4de]/70 px-6 sm:px-8 py-6 shadow-inner">
+                  <div className="rounded-3xl border border-[#e3c189] bg-[#fff4de]/70 px-6 sm:px-8 py-6 shadow-inner hover:shadow-md hover:border-[#d4a762] transition-all duration-300 hover:scale-105">
                     <p className="font-semibold uppercase tracking-normal mb-4 text-center">દર્શનાભિલાષી</p>
                     <p className="font-sans text-xs sm:text-sm leading-7 text-center">
                       સ્વ. શાંતિલાલ કોયજીભાઈ પટેલ
@@ -245,7 +283,7 @@ export default function WeddingInvitation() {
                       શ્રી રોમાંગકુમાર શશીકાન્તભાઈ પટેલ
                     </p>
                   </div>
-                  <div className="rounded-3xl border border-[#e3c189] bg-[#fff4de]/70 px-6 sm:px-8 py-6 shadow-inner flex flex-col justify-center">
+                  <div className="rounded-3xl border border-[#e3c189] bg-[#fff4de]/70 px-6 sm:px-8 py-6 shadow-inner flex flex-col justify-center hover:shadow-md hover:border-[#d4a762] transition-all duration-300 hover:scale-105">
                     <p className="font-semibold uppercase tracking-normal mb-4 text-center">સ્નેહાધીન</p>
                     <p className="font-sans text-xs sm:text-sm leading-7 text-center">
                       સ્વ. ધૂળીબેન શાંતિલાલ પટેલ
@@ -276,7 +314,7 @@ export default function WeddingInvitation() {
               </div>
 
               {/* Functions & Ceremonies */}
-              <div className="rounded-[36px] border border-[#d29f52]/70 bg-[#fff8ea]/95 px-6 py-10 sm:px-8 sm:py-12 shadow-[0_14px_40px_rgba(142,87,37,0.2)]">
+              <div className="rounded-[36px] border border-[#d29f52]/70 bg-[#fff8ea]/95 px-6 py-10 sm:px-8 sm:py-12 shadow-[0_14px_40px_rgba(142,87,37,0.2)] hover:shadow-[0_18px_50px_rgba(142,87,37,0.3)] transition-all duration-500">
                 <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-4 sm:mb-5 tracking-normal uppercase">
                 માંગલિક પ્રસંગો</h2>
                 <a
@@ -289,7 +327,7 @@ export default function WeddingInvitation() {
                 </a>
 
                 <div className="grid gap-8 sm:gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-                  <div className="relative overflow-hidden rounded-[28px] border-[4px] border-[#c07a4d] bg-gradient-to-b from-[#fff3dd] via-[#fce3bf] to-[#f6cea5] px-6 sm:px-8 md:px-10 py-10 sm:py-12 shadow-[0_18px_40px_rgba(142,87,37,0.18)]">
+                  <div className="relative overflow-hidden rounded-[28px] border-[4px] border-[#c07a4d] bg-gradient-to-b from-[#fff3dd] via-[#fce3bf] to-[#f6cea5] px-6 sm:px-8 md:px-10 py-10 sm:py-12 shadow-[0_18px_40px_rgba(142,87,37,0.18)] hover:shadow-[0_22px_50px_rgba(142,87,37,0.25)] transition-all duration-500 hover:scale-105 hover:border-[#b8693a]">
                     <div className="absolute inset-x-8 sm:inset-x-10 md:inset-x-12 top-0 h-1.5 sm:h-2 rounded-b-full bg-gradient-to-r from-transparent via-[#c07a4d]/60 to-transparent" />
                     <h3 className="text-xl sm:text-2xl font-semibold text-center mb-6 sm:mb-8 border-b border-[#c07a4d]/40 pb-3 sm:pb-4 uppercase tracking-normal">
                       શુક્રવાર, ૨૦-૦૨-૨૦૨૬
@@ -311,7 +349,7 @@ export default function WeddingInvitation() {
                     </div>
                   </div>
 
-                  <div className="relative overflow-hidden rounded-[28px] border-[4px] border-[#d2a55a] bg-gradient-to-b from-[#fff4d8] via-[#fce4b5] to-[#f3cb88] px-6 sm:px-8 md:px-10 py-10 sm:py-12 shadow-[0_18px_40px_rgba(154,102,43,0.18)]">
+                  <div className="relative overflow-hidden rounded-[28px] border-[4px] border-[#d2a55a] bg-gradient-to-b from-[#fff4d8] via-[#fce4b5] to-[#f3cb88] px-6 sm:px-8 md:px-10 py-10 sm:py-12 shadow-[0_18px_40px_rgba(154,102,43,0.18)] hover:shadow-[0_22px_50px_rgba(154,102,43,0.25)] transition-all duration-500 hover:scale-105 hover:border-[#c99442]">
                     <div className="absolute inset-x-8 sm:inset-x-10 md:inset-x-12 top-0 h-1.5 sm:h-2 rounded-b-full bg-gradient-to-r from-transparent via-[#d2a55a]/60 to-transparent" />
                     <h3 className="text-xl sm:text-2xl font-semibold text-center mb-6 sm:mb-8 border-b border-[#d2a55a]/40 pb-3 sm:pb-4 uppercase tracking-normal">
                       શનિવાર, ૨૧-૦૨-૨૦૨૬
@@ -333,7 +371,7 @@ export default function WeddingInvitation() {
                     </div>
                   </div>
 
-                  <div className="relative overflow-hidden rounded-[28px] border-[4px] border-[#c4933c] bg-gradient-to-b from-[#fff6dc] via-[#fbe6b8] to-[#f0c686] px-6 sm:px-8 md:px-10 py-10 sm:py-12 shadow-[0_18px_40px_rgba(154,102,43,0.18)]">
+                  <div className="relative overflow-hidden rounded-[28px] border-[4px] border-[#c4933c] bg-gradient-to-b from-[#fff6dc] via-[#fbe6b8] to-[#f0c686] px-6 sm:px-8 md:px-10 py-10 sm:py-12 shadow-[0_18px_40px_rgba(154,102,43,0.18)] hover:shadow-[0_22px_50px_rgba(154,102,43,0.25)] transition-all duration-500 hover:scale-105 hover:border-[#b5802a]">
                     <div className="absolute inset-x-8 sm:inset-x-10 md:inset-x-12 top-0 h-1.5 sm:h-2 rounded-b-full bg-gradient-to-r from-transparent via-[#c4933c]/60 to-transparent" />
                     <h3 className="text-xl sm:text-2xl font-semibold text-center mb-6 sm:mb-8 border-b border-[#c4933c]/40 pb-3 sm:pb-4 uppercase tracking-normal">
                       રવિવાર, ૨૨-૦૨-૨૦૨૬
