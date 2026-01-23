@@ -151,7 +151,7 @@ export default function WeddingInvitation() {
 
             <div className="mt-8 sm:mt-10 flex justify-center">
               <a
-                href="https://goo.gl/maps/sy4sbJGpHTQuZaRu5"
+                href="https://maps.app.goo.gl/bnzm3pKP4gBQpMkZ8?g_st=aw"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 sm:gap-3 rounded-full border border-gold px-6 sm:px-8 py-2.5 sm:py-3 text-xs sm:text-sm font-semibold uppercase tracking-[0.24em] text-maroon transition duration-300 hover:bg-gold hover:text-maroon/90 bg-[#fff7e6]/70 shadow-[0_8px_20px_rgba(234,192,112,0.25)]"
