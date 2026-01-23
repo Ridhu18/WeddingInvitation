@@ -296,23 +296,17 @@ export default function WeddingInvitation() {
                     </h3>
                     <p className="text-xs sm:text-sm text-center mb-4 text-maroon/70">વિક્રમ સંવત ૨૦૮૨ ફાગણ સુદ-૩</p>
                     <div className="space-y-5 sm:space-y-6 font-sans text-xs sm:text-sm">
-                      <div className="flex items-start justify-between gap-3 sm:gap-4">
-                        <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">ગણેશ સ્થાપના</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">સવારે ૮-૩૦ કલાકે</p>
-                        </div>
+                      <div className="text-center">
+                        <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">ગણેશ સ્થાપના</p>
+                        <p className="text-gold mt-1 text-xs sm:text-sm">સવારે ૮-૩૦ કલાકે</p>
                       </div>
-                      <div className="flex items-start justify-between gap-3 sm:gap-4">
-                        <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">મંડપ મુહૂર્ત</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">સવારે ૯-૩૦ કલાકે</p>
-                        </div>
+                      <div className="text-center">
+                        <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">મંડપ મુહૂર્ત</p>
+                        <p className="text-gold mt-1 text-xs sm:text-sm">સવારે ૯-૩૦ કલાકે</p>
                       </div>
-                      <div className="flex items-start justify-between gap-3 sm:gap-4">
-                        <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">ગ્રહશાંતિ</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">બપોરે ૧-૦૧ કલાકે</p>
-                        </div>
+                      <div className="text-center">
+                        <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">ગ્રહશાંતિ</p>
+                        <p className="text-gold mt-1 text-xs sm:text-sm">બપોરે ૧-૦૧ કલાકે</p>
                       </div>
                     </div>
                   </div>
@@ -324,18 +318,14 @@ export default function WeddingInvitation() {
                     </h3>
                     <p className="text-xs sm:text-sm text-center mb-4 text-maroon/70">વિક્રમ સંવત ૨૦૮૨ ફાગણ સુદ-૪</p>
                     <div className="space-y-5 sm:space-y-6 font-sans text-xs sm:text-sm">
-                      <div className="flex items-start justify-between gap-3 sm:gap-4">
-                        <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">મામેરૂં</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">બપોરે ૧૨-૦૧ કલાકે</p>
-                        </div>
+                      <div className="text-center">
+                        <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">મામેરૂં</p>
+                        <p className="text-gold mt-1 text-xs sm:text-sm">બપોરે ૧૨-૦૧ કલાકે</p>
                       </div>
 
-                      <div className="flex items-start justify-between gap-3 sm:gap-4">
-                        <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">રાસ-ગરબા</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">રાત્રે ૯-૦૧ કલાકે</p>
-                        </div>
+                      <div className="text-center">
+                        <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">રાસ-ગરબા</p>
+                        <p className="text-gold mt-1 text-xs sm:text-sm">રાત્રે ૯-૦૧ કલાકે</p>
                       </div>
                     </div>
                   </div>
@@ -347,29 +337,21 @@ export default function WeddingInvitation() {
                     </h3>
                     <p className="text-xs sm:text-sm text-center mb-4 text-maroon/70">વિક્રમ સંવત ૨૦૮૨ ફાગણ સુદ-૫</p>
                     <div className="space-y-5 sm:space-y-6 font-sans text-xs sm:text-sm">
-                      <div className="flex items-start justify-between gap-3 sm:gap-4">
-                        <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">જાન આગમન</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">સવારે ૧૦-૦૧ કલાકે</p>
-                        </div>
+                      <div className="text-center">
+                        <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">જાન આગમન</p>
+                        <p className="text-gold mt-1 text-xs sm:text-sm">સવારે ૧૦-૦૧ કલાકે</p>
                       </div>
-                      <div className="flex items-start justify-between gap-3 sm:gap-4">
-                        <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">ભોજન સમારંભ</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">સવારે ૧૧-૦૧ કલાકથી</p>
-                        </div>
+                      <div className="text-center">
+                        <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">ભોજન સમારંભ</p>
+                        <p className="text-gold mt-1 text-xs sm:text-sm">સવારે ૧૧-૦૧ કલાકથી</p>
                       </div>
-                      <div className="flex items-start justify-between gap-3 sm:gap-4">
-                        <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">હસ્ત મેળાપ</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">બપોરે ૧૨-૦૧ કલાકે</p>
-                        </div>
+                      <div className="text-center">
+                        <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">હસ્ત મેળાપ</p>
+                        <p className="text-gold mt-1 text-xs sm:text-sm">બપોરે ૧૨-૦૧ કલાકે</p>
                       </div>
-                      <div className="flex items-start justify-between gap-3 sm:gap-4">
-                        <div className="max-w-[80%]">
-                          <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">કન્યા વિદાય</p>
-                          <p className="text-gold mt-1 text-xs sm:text-sm">બપોરે ૩-૦૧ કલાકે</p>
-                        </div>
+                      <div className="text-center">
+                        <p className="font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em]">કન્યા વિદાય</p>
+                        <p className="text-gold mt-1 text-xs sm:text-sm">બપોરે ૩-૦૧ કલાકે</p>
                       </div>
                     </div>
                   </div>
