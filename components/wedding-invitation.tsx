@@ -173,7 +173,7 @@ export default function WeddingInvitation() {
             </div>
 
             <div className="mt-12 sm:mt-14 space-y-12 sm:space-y-14">
-              {/* Invited By & Blessings */}
+              {/* Invited By */}
               <div className="rounded-[36px] border border-[#d4a76a]/70 bg-[#fff8e9]/90 px-6 py-10 sm:px-8 sm:py-12 shadow-[0_14px_40px_rgba(140,80,30,0.18)] text-center">
                 <div className="space-y-6">
                   <h2 className="text-2xl sm:text-3xl font-semibold tracking-[0.28em] uppercase text-maroon">💐આમંત્રક</h2>
@@ -199,9 +199,10 @@ export default function WeddingInvitation() {
                     </a>
                   </p>
                 </div>
+              </div>
 
-                <div className="mx-auto my-8 h-px w-28 bg-gradient-to-r from-transparent via-gold to-transparent opacity-70" />
-
+              {/* Heart Blessings */}
+              <div className="rounded-[36px] border border-[#d4a76a]/70 bg-[#fff8e9]/90 px-6 py-10 sm:px-8 sm:py-12 shadow-[0_14px_40px_rgba(140,80,30,0.18)] text-center">
                 <div className="space-y-5">
                   <h2 className="text-2xl sm:text-3xl font-semibold tracking-[0.25em] uppercase">🌼 હૃદયથી આશીર્વાદ</h2>
                   <p className="text-base sm:text-lg leading-relaxed font-sans text-center">
@@ -279,7 +280,7 @@ export default function WeddingInvitation() {
               <div className="rounded-[36px] border border-[#d29f52]/70 bg-[#fff8ea]/95 px-6 py-10 sm:px-8 sm:py-12 shadow-[0_14px_40px_rgba(142,87,37,0.2)]">
                 <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-4 sm:mb-5 tracking-[0.22em] sm:tracking-[0.28em] uppercase">માગલિક પ્રસંગો</h2>
                 <a
-                  href="https://goo.gl/maps/sy4sbJGpHTQuZaRu5"
+                  href="https://maps.app.goo.gl/bnzm3pKP4gBQpMkZ8?g_st=aw"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mx-auto mb-10 sm:mb-12 block w-fit rounded-full border border-gold px-6 sm:px-8 py-2.5 sm:py-3 text-center text-xs sm:text-sm uppercase tracking-[0.24em] sm:tracking-[0.3em] text-gold transition duration-300 hover:bg-gold hover:text-maroon"
